@@ -1,0 +1,1180 @@
+2025-04-20T17:33:09.995-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Closing session [749b279a-3c24-4830-8f76-de75ab3f5c62]
+2025-04-20T17:33:10.014-04:00 TRACE 40308 --- [backend] [main] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@5acf07e7]
+2025-04-20T17:33:10.014-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.014-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.014-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.015-04:00 TRACE 40308 --- [backend] [main] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2025-04-20T17:33:10.016-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Opened Session [526962bb-69ad-445a-a1e9-e0ad81a6a51b] at timestamp: 1745184790016
+2025-04-20T17:33:10.016-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Closing session [526962bb-69ad-445a-a1e9-e0ad81a6a51b]
+2025-04-20T17:33:10.016-04:00 TRACE 40308 --- [backend] [main] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@42c8f458]
+2025-04-20T17:33:10.016-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.016-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.016-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.037-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69c13480
+2025-04-20T17:33:10.041-04:00 TRACE 40308 --- [backend] [main] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2025-04-20T17:33:10.041-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Opened Session [6e2a778a-8e41-45b5-91f8-17a460140848] at timestamp: 1745184790041
+2025-04-20T17:33:10.042-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Closing session [6e2a778a-8e41-45b5-91f8-17a460140848]
+2025-04-20T17:33:10.042-04:00 TRACE 40308 --- [backend] [main] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@2be0ea4a]
+2025-04-20T17:33:10.042-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.042-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.042-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.046-04:00 TRACE 40308 --- [backend] [main] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2025-04-20T17:33:10.046-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Opened Session [d619090a-01d7-43a7-bf78-5594ba075af5] at timestamp: 1745184790046
+2025-04-20T17:33:10.047-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Closing session [d619090a-01d7-43a7-bf78-5594ba075af5]
+2025-04-20T17:33:10.047-04:00 TRACE 40308 --- [backend] [main] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@427a4d68]
+2025-04-20T17:33:10.047-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.047-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.047-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.068-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2025-04-20T17:33:10.068-04:00  WARN 40308 --- [backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20T17:33:10.083-04:00  INFO 40308 --- [backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-04-20T17:33:10.102-04:00 DEBUG 40308 --- [backend] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-20T17:33:10.118-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@703aa75e
+2025-04-20T17:33:10.138-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.a.AppointmentController:
+	{GET [/appointment]}: getAllAppointments()
+	{POST [/appointment]}: saveAppointment(Appointment)
+	{DELETE [/appointment/{id}]}: deleteAppointment(Long)
+	{GET [/appointment/{id}]}: getAppointmentById(Long)
+2025-04-20T17:33:10.140-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.c.CareController:
+	{POST [/care]}: saveCare(Care)
+	{GET [/care/{id}]}: getCareById(Long)
+	{DELETE [/care/{id}]}: deleteCare(Long)
+	{GET [/care]}: getAllCares()
+2025-04-20T17:33:10.143-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.I.InvoiceController:
+	{GET [/invoice/{id}]}: getInvoiceById(Long)
+	{DELETE [/invoice/{id}]}: deleteInvoice(Long)
+	{GET [/invoice]}: getAllInvoices()
+	{POST [/invoice]}: saveInvoice(Invoice)
+	{GET [/invoice/pdf/{id}]}: generateInvoicePdf(Long)
+2025-04-20T17:33:10.144-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.LoginController:
+	{POST [/login]}: login(User)
+2025-04-20T17:33:10.145-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.m.MedicationController:
+	{DELETE [/medication/{id}]}: deleteMedication(Long)
+	{POST [/medication]}: saveMedication(Medication)
+	{GET [/medication]}: getAllMedications()
+	{GET [/medication/{id}]}: getMedicationById(Long)
+2025-04-20T17:33:10.146-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.p.PatientController:
+	{GET [/patient]}: getAllPatients()
+	{GET [/patient/register]}: greetings(String)
+	{DELETE [/patient/{id}]}: deletePatient(Long)
+	{POST [/patient]}: savePatient(Patient)
+	{GET [/patient/{id}]}: getPatientById(Long)
+2025-04-20T17:33:10.146-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.SecuredController:
+	{ [/greetings]}: greetings(String)
+2025-04-20T17:33:10.147-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-04-20T17:33:10.148-04:00 DEBUG 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2025-04-20T17:33:10.149-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2025-04-20T17:33:10.151-04:00 DEBUG 40308 --- [backend] [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2025-04-20T17:33:10.192-04:00 TRACE 40308 --- [backend] [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2025-04-20T17:33:10.193-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cdef89c
+2025-04-20T17:33:10.196-04:00 TRACE 40308 --- [backend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-04-20T17:33:10.196-04:00 TRACE 40308 --- [backend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-04-20T17:33:10.196-04:00 DEBUG 40308 --- [backend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-04-20T17:33:10.204-04:00 DEBUG 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-20T17:33:10.215-04:00 DEBUG 40308 --- [backend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-20T17:33:10.225-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-04-20T17:33:10.282-04:00 DEBUG 40308 --- [backend] [main] c.duoc.backend.JWTAuthorizationFilter    : Filter 'JWTAuthorizationFilter' configured for use
+2025-04-20T17:33:10.283-04:00  INFO 40308 --- [backend] [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring TestDispatcherServlet ''
+2025-04-20T17:33:10.283-04:00  INFO 40308 --- [backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-20T17:33:10.284-04:00  INFO 40308 --- [backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-04-20T17:33:10.316-04:00  INFO 40308 --- [backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 57847 (http) with context path '/'
+2025-04-20T17:33:10.320-04:00  INFO 40308 --- [backend] [main] c.d.b.PatientControllerIntegrationTest   : Started PatientControllerIntegrationTest in 1.983 seconds (process running for 18.772)
+2025-04-20T17:33:10.328-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:57847/login
+2025-04-20T17:33:10.329-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-04-20T17:33:10.330-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Writing [    {
+        "username": "prueba",
+        "password": "123456"
+    }
+] as "application/json"
+2025-04-20T17:33:10.340-04:00  INFO 40308 --- [backend] [http-nio-auto-2-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-20T17:33:10.340-04:00  INFO 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-20T17:33:10.340-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@3697a307
+2025-04-20T17:33:10.340-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@1e33203f
+2025-04-20T17:33:10.340-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.theme.FixedThemeResolver@58a01e47
+2025-04-20T17:33:10.341-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Detected DefaultRequestToViewNameTranslator
+2025-04-20T17:33:10.341-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Detected SessionFlashMapManager
+2025-04-20T17:33:10.341-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-04-20T17:33:10.341-04:00  INFO 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-20T17:33:10.342-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-04-20T17:33:10.342-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-04-20T17:33:10.343-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2025-04-20T17:33:10.343-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.duoc.backend.LoginController#login(User)
+2025-04-20T17:33:10.343-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2025-04-20T17:33:10.343-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.internal.SessionImpl       : Opened Session [44341406-167b-414f-8763-89faa41ea541] at timestamp: 1745184790343
+2025-04-20T17:33:10.347-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.duoc.backend.user.User@5277accf]
+2025-04-20T17:33:10.347-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.method.HandlerMethod             : Arguments: [com.duoc.backend.user.User@5277accf]
+2025-04-20T17:33:10.350-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.user.User] to TableGroup
+2025-04-20T17:33:10.350-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.user.User] to TableGroup
+2025-04-20T17:33:10.351-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.sql.ast.create         : Created new SQL alias : u1_0
+2025-04-20T17:33:10.351-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolved SqmRoot [com.duoc.backend.user.User] to new TableGroup [StandardTableGroup(com.duoc.backend.user.User(6))]
+2025-04-20T17:33:10.351-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.sql.ast.create         : Registration of TableGroup [StandardTableGroup(com.duoc.backend.user.User(6))] with identifierForTableGroup [com.duoc.backend.user.User] for NavigablePath [com.duoc.backend.user.User] 
+2025-04-20T17:33:10.351-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Visiting explicit joins for `com.duoc.backend.user.User(6)`
+2025-04-20T17:33:10.351-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : SqmRoot [com.duoc.backend.user.User] resolved to existing TableGroup [StandardTableGroup(com.duoc.backend.user.User(6))]
+2025-04-20T17:33:10.351-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.p.entity.AbstractEntityPersister     : #findSubPart(`username`)
+2025-04-20T17:33:10.351-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@66f5a238
+2025-04-20T17:33:10.351-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.duoc.backend.user.User(6).username) 
+2025-04-20T17:33:10.351-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.p.entity.AbstractEntityPersister     : #findSubPart(`username`)
+2025-04-20T17:33:10.352-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.results.graph.AST      : DomainResult Graph:
+ \-EntityResultImpl [com.duoc.backend.user.User(6)]
+ |  +-BasicFetch [com.duoc.backend.user.User(6).email]
+ |  +-BasicFetch [com.duoc.backend.user.User(6).enabled]
+ |  +-BasicFetch [com.duoc.backend.user.User(6).password]
+ |  \-BasicFetch [com.duoc.backend.user.User(6).username]
+
+2025-04-20T17:33:10.352-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.results.graph.AST      : Stack trace calling DomainResultGraphPrinter
+
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:70) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:46) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:37) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:877) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:815) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:510) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:388) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:275) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:152) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:140) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.5.jar:6.2.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy144.findByUsername(Unknown Source) ~[na:na]
+	at com.duoc.backend.user.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:30) ~[classes/:na]
+	at com.duoc.backend.LoginController.login(LoginController.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at com.duoc.backend.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:70) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-04-20T17:33:10.360-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.sql.ast.tree           : SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (u1 : com.duoc.backend.user.User(6)) {
+          primaryTableReference : user as u1_0
+        }
+      }
+    }
+
+2025-04-20T17:33:10.360-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.sql.exec               : Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2025-04-20T17:33:10.360-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.s.r.j.i.DeferredResultSetAccess      : Executing query to retrieve ResultSet : select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password,u1_0.username from user u1_0 where u1_0.username=?
+2025-04-20T17:33:10.361-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.SQL                        : select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password,u1_0.username from user u1_0 where u1_0.username=?
+2025-04-20T17:33:10.361-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@780032519 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password,u1_0.username from user u1_0 where u1_0.username=** NOT SPECIFIED **]
+2025-04-20T17:33:10.361-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Registering last query statement [HikariProxyPreparedStatement@780032519 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password,u1_0.username from user u1_0 where u1_0.username=** NOT SPECIFIED **]
+2025-04-20T17:33:10.361-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [prueba]
+2025-04-20T17:33:10.366-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering result set [HikariProxyResultSet@690359648 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@327fd425]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.results                : Registering initializer : EntityJoinedFetchInitializer(com.duoc.backend.user.User(6))
+2025-04-20T17:33:10.367-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.results                : Initializer list:
+	  com.duoc.backend.user.User(6) -> EntityJoinedFetchInitializer(com.duoc.backend.user.User(6))@1497558245 (SingleTableEntityPersister(com.duoc.backend.user.User))
+
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.jdbc.extract           : extracted value (1:INTEGER) -> [1]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.jdbc.extract           : extracted value (2:VARCHAR) -> [prueba@gmail.com]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.jdbc.extract           : extracted value (3:BOOLEAN) -> [false]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [123456]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [prueba]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@690359648 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@327fd425]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@690359648 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@327fd425]
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@780032519 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password,u1_0.username from user u1_0 where u1_0.username='prueba']
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@780032519 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password,u1_0.username from user u1_0 where u1_0.username='prueba']
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterStatement
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.e.i.StatefulPersistenceContext       : Initializing non-lazy collections
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterTransaction
+2025-04-20T17:33:10.367-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.369-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [text/plain, application/json, application/*+json, */*] and supported [text/plain, */*, application/json, application/*+json]
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Bearer eyJhbGciOiJIUzUxMiJ9.eyJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwic3ViIjoicHJ1ZWJhIiwiaWF0IjoxNzQ1MTg0NzkwLCJleHAiOjE3NDUyNzExOTB9.KdhVxJMCv-fuSK095rALTWcDaQw8y1v1qY2pWAsMynLlqSr1Mg8o-W6aZoa2M2ZifBh_F0VEOExZ333XDKP7fQ"]
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] org.hibernate.internal.SessionImpl       : Closing session [44341406-167b-414f-8763-89faa41ea541]
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@1ce47b63]
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.370-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-1] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.370-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2025-04-20T17:33:10.371-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-04-20T17:33:10.372-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2025-04-20T17:33:10.373-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:57847/patient
+2025-04-20T17:33:10.373-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-04-20T17:33:10.377-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /patient
+2025-04-20T17:33:10.377-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /patient
+2025-04-20T17:33:10.453-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-04-20T17:33:10.453-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/patient", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2025-04-20T17:33:10.453-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.duoc.backend.patient.PatientController#getAllPatients()
+2025-04-20T17:33:10.453-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2025-04-20T17:33:10.454-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.internal.SessionImpl       : Opened Session [c4983b94-faba-42ef-aafd-4a4bf6e6c454] at timestamp: 1745184790454
+2025-04-20T17:33:10.455-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.s.web.method.HandlerMethod             : Arguments: []
+2025-04-20T17:33:10.474-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2025-04-20T17:33:10.474-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.e.t.internal.TransactionImpl         : begin
+2025-04-20T17:33:10.474-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+2025-04-20T17:33:10.477-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : Transaction begun via JDBC Connection.setAutoCommit(false)
+2025-04-20T17:33:10.478-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+2025-04-20T17:33:10.490-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.patient.Patient] to TableGroup
+2025-04-20T17:33:10.490-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.patient.Patient] to TableGroup
+2025-04-20T17:33:10.490-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.sql.ast.create         : Created new SQL alias : p1_0
+2025-04-20T17:33:10.490-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolved SqmRoot [com.duoc.backend.patient.Patient] to new TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(7))]
+2025-04-20T17:33:10.490-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.sql.ast.create         : Registration of TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(7))] with identifierForTableGroup [com.duoc.backend.patient.Patient] for NavigablePath [com.duoc.backend.patient.Patient] 
+2025-04-20T17:33:10.490-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Visiting explicit joins for `com.duoc.backend.patient.Patient(7)`
+2025-04-20T17:33:10.490-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : SqmRoot [com.duoc.backend.patient.Patient] resolved to existing TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(7))]
+2025-04-20T17:33:10.491-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.results.graph.AST      : DomainResult Graph:
+ \-EntityResultImpl [com.duoc.backend.patient.Patient(7)]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(7).age]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(7).breed]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(7).name]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(7).owner]
+ |  \-BasicFetch [com.duoc.backend.patient.Patient(7).species]
+
+2025-04-20T17:33:10.491-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.results.graph.AST      : Stack trace calling DomainResultGraphPrinter
+
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:70) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:46) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:37) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:877) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:815) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:510) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:388) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:395) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:731) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.5.jar:6.2.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy145.findAll(Unknown Source) ~[na:na]
+	at com.duoc.backend.patient.PatientService.getAllPatients(PatientService.java:13) ~[classes/:na]
+	at com.duoc.backend.patient.PatientController.getAllPatients(PatientController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at com.duoc.backend.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:70) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-04-20T17:33:10.494-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.sql.ast.tree           : SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (p1 : com.duoc.backend.patient.Patient(7)) {
+          primaryTableReference : patient as p1_0
+        }
+      }
+    }
+
+2025-04-20T17:33:10.495-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.sql.exec               : Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2025-04-20T17:33:10.495-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.s.r.j.i.DeferredResultSetAccess      : Executing query to retrieve ResultSet : select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0
+2025-04-20T17:33:10.495-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.SQL                        : select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0
+2025-04-20T17:33:10.495-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@403946335 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.495-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Registering last query statement [HikariProxyPreparedStatement@403946335 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.513-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering result set [HikariProxyResultSet@771604135 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@4d2dbae5]
+2025-04-20T17:33:10.513-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.results                : Registering initializer : EntityJoinedFetchInitializer(com.duoc.backend.patient.Patient(7))
+2025-04-20T17:33:10.513-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.results                : Initializer list:
+	  com.duoc.backend.patient.Patient(7) -> EntityJoinedFetchInitializer(com.duoc.backend.patient.Patient(7))@1860662166 (SingleTableEntityPersister(com.duoc.backend.patient.Patient))
+
+2025-04-20T17:33:10.514-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [1]
+2025-04-20T17:33:10.515-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.515-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Labrador]
+2025-04-20T17:33:10.515-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Firulais]
+2025-04-20T17:33:10.515-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Juan Pérez]
+2025-04-20T17:33:10.515-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Perro]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [2]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Comun]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Tom]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Montse]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Gato]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [3]
+2025-04-20T17:33:10.516-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.517-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Comun]
+2025-04-20T17:33:10.517-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Tom]
+2025-04-20T17:33:10.517-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Montse]
+2025-04-20T17:33:10.517-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Gato]
+2025-04-20T17:33:10.518-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@771604135 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@4d2dbae5]
+2025-04-20T17:33:10.519-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@771604135 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@4d2dbae5]
+2025-04-20T17:33:10.519-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@403946335 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.519-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@403946335 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.519-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterStatement
+2025-04-20T17:33:10.519-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.e.i.StatefulPersistenceContext       : Initializing non-lazy collections
+2025-04-20T17:33:10.521-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.e.t.internal.TransactionImpl         : committing
+2025-04-20T17:33:10.521-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2025-04-20T17:33:10.521-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.internal.SessionImpl       : SessionImpl#beforeTransactionCompletion()
+2025-04-20T17:33:10.521-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#beforeTransactionCompletion
+2025-04-20T17:33:10.521-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2025-04-20T17:33:10.521-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : Preparing to commit transaction via JDBC Connection.commit()
+2025-04-20T17:33:10.526-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : Transaction committed via JDBC Connection.commit()
+2025-04-20T17:33:10.527-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+2025-04-20T17:33:10.530-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterTransaction
+2025-04-20T17:33:10.530-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.530-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2025-04-20T17:33:10.530-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2025-04-20T17:33:10.530-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.internal.SessionImpl       : SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2025-04-20T17:33:10.537-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json]
+2025-04-20T17:33:10.537-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.duoc.backend.patient.Patient@6babf456, com.duoc.backend.patient.Patient@2be36702, com.duoc.backend.patient.Patient@bb91a09]]
+2025-04-20T17:33:10.541-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2025-04-20T17:33:10.542-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] org.hibernate.internal.SessionImpl       : Closing session [c4983b94-faba-42ef-aafd-4a4bf6e6c454]
+2025-04-20T17:33:10.542-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@10946c76]
+2025-04-20T17:33:10.542-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.542-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.542-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.542-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-2] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.542-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2025-04-20T17:33:10.545-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-04-20T17:33:10.545-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-04-20T17:33:10.585-04:00 DEBUG 40308 --- [backend] [main] w.c.HttpSessionSecurityContextRepository : Created HttpSession as SecurityContext is non-default
+2025-04-20T17:33:10.587-04:00 DEBUG 40308 --- [backend] [main] w.c.HttpSessionSecurityContextRepository : Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=user, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_USER]]] to HttpSession [org.springframework.mock.web.MockHttpSession@4353146f]
+2025-04-20T17:33:10.595-04:00 DEBUG 40308 --- [backend] [main] o.s.security.web.FilterChainProxy        : Securing GET /patient
+2025-04-20T17:33:10.596-04:00 DEBUG 40308 --- [backend] [main] o.s.security.web.FilterChainProxy        : Secured GET /patient
+2025-04-20T17:33:10.599-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.duoc.backend.patient.PatientController#getAllPatients()
+2025-04-20T17:33:10.600-04:00 TRACE 40308 --- [backend] [main] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2025-04-20T17:33:10.600-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Opened Session [0a1f88f5-dd65-4a5e-829d-03b6f2cd386a] at timestamp: 1745184790600
+2025-04-20T17:33:10.600-04:00 TRACE 40308 --- [backend] [main] o.s.web.method.HandlerMethod             : Arguments: []
+2025-04-20T17:33:10.603-04:00 DEBUG 40308 --- [backend] [main] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2025-04-20T17:33:10.603-04:00 DEBUG 40308 --- [backend] [main] o.h.e.t.internal.TransactionImpl         : begin
+2025-04-20T17:33:10.603-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+2025-04-20T17:33:10.606-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : Transaction begun via JDBC Connection.setAutoCommit(false)
+2025-04-20T17:33:10.606-04:00 TRACE 40308 --- [backend] [main] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+2025-04-20T17:33:10.607-04:00 TRACE 40308 --- [backend] [main] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.patient.Patient] to TableGroup
+2025-04-20T17:33:10.607-04:00 TRACE 40308 --- [backend] [main] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.patient.Patient] to TableGroup
+2025-04-20T17:33:10.607-04:00 DEBUG 40308 --- [backend] [main] org.hibernate.orm.sql.ast.create         : Created new SQL alias : p1_0
+2025-04-20T17:33:10.608-04:00 TRACE 40308 --- [backend] [main] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolved SqmRoot [com.duoc.backend.patient.Patient] to new TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(8))]
+2025-04-20T17:33:10.608-04:00 DEBUG 40308 --- [backend] [main] org.hibernate.orm.sql.ast.create         : Registration of TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(8))] with identifierForTableGroup [com.duoc.backend.patient.Patient] for NavigablePath [com.duoc.backend.patient.Patient] 
+2025-04-20T17:33:10.608-04:00 TRACE 40308 --- [backend] [main] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Visiting explicit joins for `com.duoc.backend.patient.Patient(8)`
+2025-04-20T17:33:10.608-04:00 TRACE 40308 --- [backend] [main] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : SqmRoot [com.duoc.backend.patient.Patient] resolved to existing TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(8))]
+2025-04-20T17:33:10.609-04:00 DEBUG 40308 --- [backend] [main] org.hibernate.orm.results.graph.AST      : DomainResult Graph:
+ \-EntityResultImpl [com.duoc.backend.patient.Patient(8)]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(8).age]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(8).breed]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(8).name]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(8).owner]
+ |  \-BasicFetch [com.duoc.backend.patient.Patient(8).species]
+
+2025-04-20T17:33:10.609-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.results.graph.AST      : Stack trace calling DomainResultGraphPrinter
+
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:70) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:46) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:37) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:877) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:815) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:510) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:388) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:395) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:731) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.5.jar:6.2.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy145.findAll(Unknown Source) ~[na:na]
+	at com.duoc.backend.patient.PatientService.getAllPatients(PatientService.java:13) ~[classes/:na]
+	at com.duoc.backend.patient.PatientController.getAllPatients(PatientController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.2.5.jar:6.2.5]
+	at com.duoc.backend.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:70) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.2.5.jar:6.2.5]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201) ~[spring-test-6.2.5.jar:6.2.5]
+	at com.duoc.backend.PatientControllerIntegrationTest.getMvc(PatienControllerIntegrationTest.java:106) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:767) ~[junit-platform-commons-1.11.4.jar:1.11.4]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68) ~[junit-jupiter-engine-5.11.4.jar:5.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.11.4.jar:1.11.4]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56) ~[surefire-junit-platform-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.5.2.jar:3.5.2]
+
+2025-04-20T17:33:10.611-04:00 DEBUG 40308 --- [backend] [main] org.hibernate.orm.sql.ast.tree           : SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (p1 : com.duoc.backend.patient.Patient(8)) {
+          primaryTableReference : patient as p1_0
+        }
+      }
+    }
+
+2025-04-20T17:33:10.612-04:00 DEBUG 40308 --- [backend] [main] org.hibernate.orm.sql.exec               : Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2025-04-20T17:33:10.612-04:00 TRACE 40308 --- [backend] [main] o.h.s.r.j.i.DeferredResultSetAccess      : Executing query to retrieve ResultSet : select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0
+2025-04-20T17:33:10.612-04:00 DEBUG 40308 --- [backend] [main] org.hibernate.SQL                        : select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0
+2025-04-20T17:33:10.613-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@776256568 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.613-04:00 TRACE 40308 --- [backend] [main] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Registering last query statement [HikariProxyPreparedStatement@776256568 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.616-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering result set [HikariProxyResultSet@800722298 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@79b01476]
+2025-04-20T17:33:10.616-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.results                : Registering initializer : EntityJoinedFetchInitializer(com.duoc.backend.patient.Patient(8))
+2025-04-20T17:33:10.616-04:00 DEBUG 40308 --- [backend] [main] org.hibernate.orm.results                : Initializer list:
+	  com.duoc.backend.patient.Patient(8) -> EntityJoinedFetchInitializer(com.duoc.backend.patient.Patient(8))@161122889 (SingleTableEntityPersister(com.duoc.backend.patient.Patient))
+
+2025-04-20T17:33:10.617-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [1]
+2025-04-20T17:33:10.617-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.617-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Labrador]
+2025-04-20T17:33:10.617-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Firulais]
+2025-04-20T17:33:10.617-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Juan Pérez]
+2025-04-20T17:33:10.617-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Perro]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [2]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Comun]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Tom]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Montse]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Gato]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [3]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Comun]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Tom]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Montse]
+2025-04-20T17:33:10.618-04:00 TRACE 40308 --- [backend] [main] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Gato]
+2025-04-20T17:33:10.619-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@800722298 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@79b01476]
+2025-04-20T17:33:10.619-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@800722298 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@79b01476]
+2025-04-20T17:33:10.619-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@776256568 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.619-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@776256568 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.619-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterStatement
+2025-04-20T17:33:10.619-04:00 TRACE 40308 --- [backend] [main] o.h.e.i.StatefulPersistenceContext       : Initializing non-lazy collections
+2025-04-20T17:33:10.620-04:00 DEBUG 40308 --- [backend] [main] o.h.e.t.internal.TransactionImpl         : committing
+2025-04-20T17:33:10.620-04:00 TRACE 40308 --- [backend] [main] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2025-04-20T17:33:10.620-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : SessionImpl#beforeTransactionCompletion()
+2025-04-20T17:33:10.620-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#beforeTransactionCompletion
+2025-04-20T17:33:10.620-04:00 TRACE 40308 --- [backend] [main] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2025-04-20T17:33:10.620-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : Preparing to commit transaction via JDBC Connection.commit()
+2025-04-20T17:33:10.622-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : Transaction committed via JDBC Connection.commit()
+2025-04-20T17:33:10.623-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+2025-04-20T17:33:10.626-04:00 TRACE 40308 --- [backend] [main] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterTransaction
+2025-04-20T17:33:10.626-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.626-04:00 TRACE 40308 --- [backend] [main] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2025-04-20T17:33:10.627-04:00 TRACE 40308 --- [backend] [main] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2025-04-20T17:33:10.627-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2025-04-20T17:33:10.631-04:00 DEBUG 40308 --- [backend] [main] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-20T17:33:10.631-04:00 TRACE 40308 --- [backend] [main] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.duoc.backend.patient.Patient@234523e, com.duoc.backend.patient.Patient@7d9a5edf, com.duoc.backend.patient.Patient@4f0e6be]]
+2025-04-20T17:33:10.633-04:00 TRACE 40308 --- [backend] [main] org.hibernate.internal.SessionImpl       : Closing session [0a1f88f5-dd65-4a5e-829d-03b6f2cd386a]
+2025-04-20T17:33:10.633-04:00 TRACE 40308 --- [backend] [main] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@2313c291]
+2025-04-20T17:33:10.633-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.633-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.633-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.633-04:00 TRACE 40308 --- [backend] [main] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.660-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:57847/patient
+2025-04-20T17:33:10.660-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-04-20T17:33:10.663-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /patient
+2025-04-20T17:33:10.664-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /patient
+2025-04-20T17:33:10.665-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/patient", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2025-04-20T17:33:10.665-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.duoc.backend.patient.PatientController#getAllPatients()
+2025-04-20T17:33:10.665-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2025-04-20T17:33:10.666-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.internal.SessionImpl       : Opened Session [eaa6de3b-2b93-4869-918d-96bb3338275b] at timestamp: 1745184790666
+2025-04-20T17:33:10.666-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.s.web.method.HandlerMethod             : Arguments: []
+2025-04-20T17:33:10.670-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2025-04-20T17:33:10.670-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.e.t.internal.TransactionImpl         : begin
+2025-04-20T17:33:10.670-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+2025-04-20T17:33:10.672-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : Transaction begun via JDBC Connection.setAutoCommit(false)
+2025-04-20T17:33:10.672-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+2025-04-20T17:33:10.674-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.patient.Patient] to TableGroup
+2025-04-20T17:33:10.674-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolving SqmRoot [com.duoc.backend.patient.Patient] to TableGroup
+2025-04-20T17:33:10.674-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.sql.ast.create         : Created new SQL alias : p1_0
+2025-04-20T17:33:10.674-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Resolved SqmRoot [com.duoc.backend.patient.Patient] to new TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(9))]
+2025-04-20T17:33:10.674-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.sql.ast.create         : Registration of TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(9))] with identifierForTableGroup [com.duoc.backend.patient.Patient] for NavigablePath [com.duoc.backend.patient.Patient] 
+2025-04-20T17:33:10.674-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : Visiting explicit joins for `com.duoc.backend.patient.Patient(9)`
+2025-04-20T17:33:10.674-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.q.sqm.sql.BaseSqmToSqlAstConverter   : SqmRoot [com.duoc.backend.patient.Patient] resolved to existing TableGroup [StandardTableGroup(com.duoc.backend.patient.Patient(9))]
+2025-04-20T17:33:10.675-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.results.graph.AST      : DomainResult Graph:
+ \-EntityResultImpl [com.duoc.backend.patient.Patient(9)]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(9).age]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(9).breed]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(9).name]
+ |  +-BasicFetch [com.duoc.backend.patient.Patient(9).owner]
+ |  \-BasicFetch [com.duoc.backend.patient.Patient(9).species]
+
+2025-04-20T17:33:10.675-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.results.graph.AST      : Stack trace calling DomainResultGraphPrinter
+
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:70) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:46) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:37) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:877) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:815) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:510) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:388) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.11.Final.jar:6.6.11.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:395) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:731) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.5.jar:6.2.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy145.findAll(Unknown Source) ~[na:na]
+	at com.duoc.backend.patient.PatientService.getAllPatients(PatientService.java:13) ~[classes/:na]
+	at com.duoc.backend.patient.PatientController.getAllPatients(PatientController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at com.duoc.backend.JWTAuthorizationFilter.doFilterInternal(JWTAuthorizationFilter.java:70) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-04-20T17:33:10.677-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.sql.ast.tree           : SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (p1 : com.duoc.backend.patient.Patient(9)) {
+          primaryTableReference : patient as p1_0
+        }
+      }
+    }
+
+2025-04-20T17:33:10.678-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.sql.exec               : Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2025-04-20T17:33:10.678-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.s.r.j.i.DeferredResultSetAccess      : Executing query to retrieve ResultSet : select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0
+2025-04-20T17:33:10.678-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.SQL                        : select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0
+2025-04-20T17:33:10.678-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering statement [HikariProxyPreparedStatement@594196802 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.678-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Registering last query statement [HikariProxyPreparedStatement@594196802 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.683-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Registering result set [HikariProxyResultSet@2002443170 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@729d1152]
+2025-04-20T17:33:10.683-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.results                : Registering initializer : EntityJoinedFetchInitializer(com.duoc.backend.patient.Patient(9))
+2025-04-20T17:33:10.683-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.results                : Initializer list:
+	  com.duoc.backend.patient.Patient(9) -> EntityJoinedFetchInitializer(com.duoc.backend.patient.Patient(9))@1001316198 (SingleTableEntityPersister(com.duoc.backend.patient.Patient))
+
+2025-04-20T17:33:10.683-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [1]
+2025-04-20T17:33:10.684-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.684-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Labrador]
+2025-04-20T17:33:10.684-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Firulais]
+2025-04-20T17:33:10.684-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Juan Pérez]
+2025-04-20T17:33:10.684-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Perro]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [2]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Comun]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Tom]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Montse]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Gato]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (1:BIGINT) -> [3]
+2025-04-20T17:33:10.685-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (2:INTEGER) -> [5]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (3:VARCHAR) -> [Comun]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (4:VARCHAR) -> [Tom]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (5:VARCHAR) -> [Montse]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.orm.jdbc.extract           : extracted value (6:VARCHAR) -> [Gato]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing result set [HikariProxyResultSet@2002443170 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@729d1152]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing result set [HikariProxyResultSet@2002443170 wrapping com.mysql.cj.jdbc.result.ResultSetImpl@729d1152]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing statement [HikariProxyPreparedStatement@594196802 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Closing prepared statement [HikariProxyPreparedStatement@594196802 wrapping com.mysql.cj.jdbc.ClientPreparedStatement: select p1_0.id,p1_0.age,p1_0.breed,p1_0.name,p1_0.owner,p1_0.species from patient p1_0]
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterStatement
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.e.i.StatefulPersistenceContext       : Initializing non-lazy collections
+2025-04-20T17:33:10.686-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.e.t.internal.TransactionImpl         : committing
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.internal.SessionImpl       : SessionImpl#beforeTransactionCompletion()
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#beforeTransactionCompletion
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2025-04-20T17:33:10.686-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : Preparing to commit transaction via JDBC Connection.commit()
+2025-04-20T17:33:10.689-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : Transaction committed via JDBC Connection.commit()
+2025-04-20T17:33:10.689-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+2025-04-20T17:33:10.693-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] j.i.AbstractLogicalConnectionImplementor : LogicalConnection#afterTransaction
+2025-04-20T17:33:10.693-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.693-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] cResourceLocalTransactionCoordinatorImpl : ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2025-04-20T17:33:10.693-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] .t.i.SynchronizationRegistryStandardImpl : SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2025-04-20T17:33:10.693-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.internal.SessionImpl       : SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2025-04-20T17:33:10.696-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [text/plain, application/json, application/*+json, */*] and supported [application/json, application/*+json]
+2025-04-20T17:33:10.697-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.duoc.backend.patient.Patient@4d78c1f8, com.duoc.backend.patient.Patient@6c5e943e, com.duoc.backend.patient.Patient@76d30f66]]
+2025-04-20T17:33:10.699-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.s.web.servlet.DispatcherServlet        : No view rendering, null ModelAndView returned.
+2025-04-20T17:33:10.700-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] org.hibernate.internal.SessionImpl       : Closing session [eaa6de3b-2b93-4869-918d-96bb3338275b]
+2025-04-20T17:33:10.700-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@3b4bab35]
+2025-04-20T17:33:10.701-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.701-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2025-04-20T17:33:10.701-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2025-04-20T17:33:10.701-04:00 TRACE 40308 --- [backend] [http-nio-auto-2-exec-3] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2025-04-20T17:33:10.701-04:00 DEBUG 40308 --- [backend] [http-nio-auto-2-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK, headers={masked}
+2025-04-20T17:33:10.701-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-04-20T17:33:10.701-04:00 DEBUG 40308 --- [backend] [main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-04-20T17:33:10.903-04:00  INFO 40308 --- [backend] [main] c.d.b.PatientControllerMockMvcTest       : Starting PatientControllerMockMvcTest using Java 17.0.14 with PID 40308 (started by calvarez in C:\Users\calvarez\OneDrive - Dictuc\Documentos\Personal\Duoc\Backend\Semana2-CDY2203)
+2025-04-20T17:33:10.905-04:00 DEBUG 40308 --- [backend] [main] c.d.b.PatientControllerMockMvcTest       : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-20T17:33:10.906-04:00  INFO 40308 --- [backend] [main] c.d.b.PatientControllerMockMvcTest       : No active profile set, falling back to 1 default profile: "default"
+2025-04-20T17:33:10.909-04:00 TRACE 40308 --- [backend] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5efb3259, started on Sun Apr 20 17:33:10 CLT 2025
+2025-04-20T17:33:11.310-04:00 TRACE 40308 --- [backend] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'messageSource' bean, using [Empty MessageSource]
+2025-04-20T17:33:11.311-04:00 TRACE 40308 --- [backend] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2025-04-20T17:33:11.583-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.d.b.p.PatientController:
+	{GET [/patient]}: getAllPatients()
+	{GET [/patient/register]}: greetings(String)
+	{DELETE [/patient/{id}]}: deletePatient(Long)
+	{POST [/patient]}: savePatient(Patient)
+	{GET [/patient/{id}]}: getPatientById(Long)
+2025-04-20T17:33:11.592-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-04-20T17:33:11.597-04:00 DEBUG 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-04-20T17:33:11.609-04:00 DEBUG 40308 --- [backend] [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2025-04-20T17:33:11.709-04:00 TRACE 40308 --- [backend] [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2025-04-20T17:33:11.719-04:00 TRACE 40308 --- [backend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-04-20T17:33:11.720-04:00 TRACE 40308 --- [backend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-04-20T17:33:11.721-04:00 DEBUG 40308 --- [backend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-04-20T17:33:11.744-04:00 DEBUG 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-04-20T17:33:11.771-04:00 DEBUG 40308 --- [backend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-04-20T17:33:11.850-04:00  WARN 40308 --- [backend] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a2d37a4c-7d94-4247-98bd-f9b583208f69
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-04-20T17:33:11.902-04:00  INFO 40308 --- [backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-04-20T17:33:12.002-04:00 DEBUG 40308 --- [backend] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-04-20T17:33:12.039-04:00  INFO 40308 --- [backend] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-20T17:33:12.040-04:00  INFO 40308 --- [backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-20T17:33:12.042-04:00  INFO 40308 --- [backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-04-20T17:33:12.070-04:00 TRACE 40308 --- [backend] [main] o.s.w.c.s.GenericWebApplicationContext   : No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2025-04-20T17:33:12.081-04:00  INFO 40308 --- [backend] [main] c.d.b.PatientControllerMockMvcTest       : Started PatientControllerMockMvcTest in 1.262 seconds (process running for 20.534)
+2025-04-20T17:33:12.201-04:00 DEBUG 40308 --- [backend] [main] w.c.HttpSessionSecurityContextRepository : Created HttpSession as SecurityContext is non-default
+2025-04-20T17:33:12.201-04:00 DEBUG 40308 --- [backend] [main] w.c.HttpSessionSecurityContextRepository : Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_USER]]] to HttpSession [org.springframework.mock.web.MockHttpSession@68009f48]
+2025-04-20T17:33:12.203-04:00 DEBUG 40308 --- [backend] [main] o.s.security.web.FilterChainProxy        : Securing GET /patient
+2025-04-20T17:33:12.210-04:00 DEBUG 40308 --- [backend] [main] w.c.HttpSessionSecurityContextRepository : Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=testuser, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_USER]]]
+2025-04-20T17:33:12.211-04:00 DEBUG 40308 --- [backend] [main] o.s.security.web.FilterChainProxy        : Secured GET /patient
+2025-04-20T17:33:12.212-04:00 TRACE 40308 --- [backend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.duoc.backend.patient.PatientController#getAllPatients()
+2025-04-20T17:33:12.220-04:00 TRACE 40308 --- [backend] [main] o.s.web.method.HandlerMethod             : Arguments: []
+2025-04-20T17:33:12.235-04:00 DEBUG 40308 --- [backend] [main] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-04-20T17:33:12.235-04:00 TRACE 40308 --- [backend] [main] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.duoc.backend.patient.Patient@18fb5226, com.duoc.backend.patient.Patient@403a2ed5]]
+2025-04-20T17:33:12.384-04:00 DEBUG 40308 --- [backend] [main] c.j.jsonpath.internal.path.CompiledPath  : Evaluating path: $.length()
+2025-04-20T17:33:12.415-04:00 DEBUG 40308 --- [backend] [main] c.j.jsonpath.internal.path.CompiledPath  : Evaluating path: $[0]['name']
+2025-04-20T17:33:12.416-04:00 DEBUG 40308 --- [backend] [main] c.j.jsonpath.internal.path.CompiledPath  : Evaluating path: $[1]['name']
+2025-04-20T17:33:12.579-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@b0964b2, started on Sun Apr 20 17:32:54 CLT 2025
+2025-04-20T17:33:12.592-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T17:33:12.592-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.hibernate.internal.SessionFactoryImpl  : HHH000031: Closing
+2025-04-20T17:33:12.593-04:00 TRACE 40308 --- [backend] [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider]
+2025-04-20T17:33:12.595-04:00 TRACE 40308 --- [backend] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@1a99692] for TypeConfiguration
+2025-04-20T17:33:12.596-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@64f6fc62] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1a99692]
+2025-04-20T17:33:12.596-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2025-04-20T17:33:12.601-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.b.r.i.BootstrapServiceRegistryImpl   : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2025-04-20T17:33:12.602-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-20T17:33:12.603-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-04-20T17:33:12.608-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74830d73: (connection evicted)
+2025-04-20T17:33:12.615-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22536c7e: (connection evicted)
+2025-04-20T17:33:12.618-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@427c9331: (connection evicted)
+2025-04-20T17:33:12.621-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3253e17f: (connection evicted)
+2025-04-20T17:33:12.626-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@46322df4: (connection evicted)
+2025-04-20T17:33:12.630-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b0db06: (connection evicted)
+2025-04-20T17:33:12.633-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3adbc6bc: (connection evicted)
+2025-04-20T17:33:12.636-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3d0c22f1: (connection evicted)
+2025-04-20T17:33:12.639-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3c699fda: (connection evicted)
+2025-04-20T17:33:12.642-04:00 DEBUG 40308 --- [backend] [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@554a5f9b: (connection evicted)
+2025-04-20T17:33:12.646-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-04-20T17:33:12.647-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-20T17:33:12.654-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T17:33:13.449-04:00  INFO 40308 --- [backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T17:33:13.457-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T17:33:13.458-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.hibernate.internal.SessionFactoryImpl  : HHH000031: Closing
+2025-04-20T17:33:13.458-04:00 TRACE 40308 --- [backend] [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider]
+2025-04-20T17:33:13.458-04:00 TRACE 40308 --- [backend] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@6ad703cd] for TypeConfiguration
+2025-04-20T17:33:13.458-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@56293cf1] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6ad703cd]
+2025-04-20T17:33:13.459-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2025-04-20T17:33:13.459-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.b.r.i.BootstrapServiceRegistryImpl   : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2025-04-20T17:33:13.460-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-20T17:33:13.460-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-04-20T17:33:13.462-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5546a9e0: (connection evicted)
+2025-04-20T17:33:13.467-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6aef6dcb: (connection evicted)
+2025-04-20T17:33:13.482-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a336941: (connection evicted)
+2025-04-20T17:33:13.491-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5fd5c3ea: (connection evicted)
+2025-04-20T17:33:13.495-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fb3a7f3: (connection evicted)
+2025-04-20T17:33:13.499-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2eceda64: (connection evicted)
+2025-04-20T17:33:13.502-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@748bee42: (connection evicted)
+2025-04-20T17:33:13.507-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b7773c4: (connection evicted)
+2025-04-20T17:33:13.511-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20ec3936: (connection evicted)
+2025-04-20T17:33:13.518-04:00 DEBUG 40308 --- [backend] [HikariPool-2 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57d1468f: (connection evicted)
+2025-04-20T17:33:13.532-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-04-20T17:33:13.533-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-20T17:33:13.551-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20T17:33:14.315-04:00  INFO 40308 --- [backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-20T17:33:14.318-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20T17:33:14.320-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.hibernate.internal.SessionFactoryImpl  : HHH000031: Closing
+2025-04-20T17:33:14.320-04:00 TRACE 40308 --- [backend] [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider]
+2025-04-20T17:33:14.321-04:00 TRACE 40308 --- [backend] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@30cd72a4] for TypeConfiguration
+2025-04-20T17:33:14.321-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1c079e9a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@30cd72a4]
+2025-04-20T17:33:14.321-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.s.i.AbstractServiceRegistryImpl      : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2025-04-20T17:33:14.321-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.h.b.r.i.BootstrapServiceRegistryImpl   : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2025-04-20T17:33:14.322-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-04-20T17:33:14.322-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-04-20T17:33:14.324-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@362aa318: (connection evicted)
+2025-04-20T17:33:14.327-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55b32180: (connection evicted)
+2025-04-20T17:33:14.332-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@148e2bbb: (connection evicted)
+2025-04-20T17:33:14.335-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@25505e05: (connection evicted)
+2025-04-20T17:33:14.338-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74a1d4f4: (connection evicted)
+2025-04-20T17:33:14.342-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@241e8ead: (connection evicted)
+2025-04-20T17:33:14.348-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70efcce4: (connection evicted)
+2025-04-20T17:33:14.351-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69c13480: (connection evicted)
+2025-04-20T17:33:14.354-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@703aa75e: (connection evicted)
+2025-04-20T17:33:14.358-04:00 DEBUG 40308 --- [backend] [HikariPool-3 connection closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7cdef89c: (connection evicted)
+2025-04-20T17:33:14.361-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-04-20T17:33:14.361-04:00  INFO 40308 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-04-20T17:33:14.366-04:00 DEBUG 40308 --- [backend] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5efb3259, started on Sun Apr 20 17:33:10 CLT 2025

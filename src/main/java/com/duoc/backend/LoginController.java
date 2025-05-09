@@ -19,7 +19,7 @@ public class LoginController {
     @Autowired
     private MyUserDetailsService userDetailsService;
 
-    @PostMapping("login")
+    @PostMapping("/login")
     public String login(@RequestBody User loginRequest) {
 
         /**
